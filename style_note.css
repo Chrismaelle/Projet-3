@@ -4,16 +4,17 @@ body, html {
   font-family: roboto, sans-serif;
 }
 
-.bloc header h1 {
+.bloc header {
   color: #fdcb46;
   background-color: #579c87;
   text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   width: 100%;
-  font-size: 7em;
-  margin-top: 0;
-  margin-bottom: 4%;
+  font-size: 3em;
+}
+.bloc header h1 {
+  margin: 0;
 }
 .bloc header h1 a {
   text-decoration: none;
@@ -28,8 +29,7 @@ body, html {
 .conteneur {
   background-color: #fcdfdb;
   width: 80%;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  margin: 0 0 10% 10%;
   text-align: center;
   -webkit-box-shadow: 1px 1px 12px #aaa;
   padding-top: 8%;
@@ -110,8 +110,7 @@ body, html {
 .conteneur .bot .bas-menu {
   width: 3em;
   height: 3em;
-  padding-top: 1%;
-  padding-right: 1%;
+  padding: 1% 1% 0 0;
 }
 .conteneur .bot h2 {
   font-family: devonshire, sans-serif;
@@ -129,10 +128,7 @@ body, html {
 }
 .footer div {
   background-color: #579c87;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
+  padding: 1% 1.5% 1% 1.5%;
   display: flex;
   justify-content: space-between;
 }
@@ -182,4 +178,4 @@ body, html {
   }
 }
 
-/*# sourceMappingURL=style2.css.map */
+/*# sourceMappingURL=style_note.css.map */
