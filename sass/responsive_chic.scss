@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .bloc{
+        header{
+            width: 100%;
+            height: auto;
+            
+            h1{
+                font-size: 2.7rem;
+                display: flex;
+                justify-content: center;
+            }
+        }    
+    }
+    .bloc{
+        aside{
+            h2{
+                font-size: 2em;
+            }
+        }
+    }
+    .conteneur{
+        padding-bottom: 20%;
+        h2{
+            font-size: 2.5rem;
+            margin-bottom: 25%;
+        }
+    }
+    .titre{
+        flex-direction: column;
+        svg{
+            width: 70%;
+        }
+        div{
+            h3{
+                font-size: 1em;
+            }
+        }
+    }
+    .liste{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        li{
+            text-align: center;
+            flex-direction: column;
+            margin: 0;
+            p{
+                font-size: 1em;
+            }
+            div{
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    .conteneur{
+        margin-bottom: 20%;
+        .bot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .bas-menu{
+            padding: 0;
+        }
+    }
+}
+    .footer{
+        div{
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
+}

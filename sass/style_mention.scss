@@ -1,0 +1,85 @@
+.bloc{
+    header{
+        h1{
+        color: rgb(253, 203, 70);
+        background-color: rgb(87, 156, 135);
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        font-size: 5em;
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: rgb(253, 203, 70);
+        }
+        }
+    }
+}
+*{
+    font-family: roboto, sans-serif;
+}
+.conteneur{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 5%;
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        color: black;
+    }
+}
+.liste1{
+    li{
+        color: rgb(253, 203, 70);
+    }
+}
+.liste2{
+    list-style-type: none;
+    padding: 0;
+    li{
+        color: black;
+    }
+}
+
+
+
+.footer{
+    position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    div{
+        background-color: rgb(87,156,135);
+    	padding-top: 1%;
+    	padding-bottom: 1%;
+    	padding-left: 1.5%;
+    	padding-right: 1.5%;
+    	display: flex;
+        justify-content: space-between;
+        a{
+            color: rgb(253,203,70);
+        	font-size: 1.5em;
+            text-decoration: none;
+            &:hover{
+                animation: shake 0.5s;
+            	animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+@keyframes shake {
+	0% {transform: translate(1px, 1px) rotate(0deg);}
+	10% {transform: translate(-1px, -2px) rotate(-1deg);}
+	20% {transform: translate(-3px, 0px) rotate(1deg);}
+  	30% {transform: translate(3px, 2px) rotate(0deg);}
+  	40% {transform: translate(1px, -1px) rotate(1deg);}
+  	50% {transform: translate(-1px, 2px) rotate(-1deg);}
+  	60% {transform: translate(-3px, 1px) rotate(0deg);}
+  	70% {transform: translate(3px, 1px) rotate(-1deg);}
+  	80% {transform: translate(-1px, -1px) rotate(1deg);}
+  	90% {transform: translate(1px, 2px) rotate(0deg);}
+  	100% {transform: translate(1px, -2px) rotate(-1deg);}
+}
