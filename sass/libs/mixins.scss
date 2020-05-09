@@ -1,0 +1,36 @@
+$primary: rgb(253, 203, 70);
+$background-color: rgb(87,156,135);
+
+@mixin header {
+    color: $primary;
+    background-color: $background-color;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 100%;
+    font-size: 3em;
+}
+@mixin linearGradient-chic {
+    background: #c67412;
+    background: linear-gradient(315deg,#c67412 0%, #a56799 60%, #6e4ccc 80%);
+    background: -webkit-linear-gradient(315deg,#c67412 0%, #a56799 60%, #6e4ccc 80%);
+    background: -moz-linear-gradient(315deg,#c67412 0%, #a56799 60%, #6e4ccc 80%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+@mixin linearGradient-delice {
+    background: #0228dd;
+    background: linear-gradient(315deg,#0228dd 0%, #0670f3 50%, #229df9 80%);
+	background: -webkit-linear-gradient(315deg,#0228dd 0%, #0670f3 50%, #229df9 80%);
+	background: -moz-linear-gradient(315deg,#0228dd 0%, #0670f3 50%, #229df9 80%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+@mixin linearGradient-gout {
+    background: #3d923a;
+    background: linear-gradient(315deg,#3d923a 0%, #89d262 40%, #beff7f 60%);
+    background: -webkit-linear-gradient(315deg,#3d923a 0%, #89d262 40%, #beff7f 60%);
+    background: -moz-linear-gradient(315deg,#3d923a 0%, #89d262 40%, #beff7f 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+}

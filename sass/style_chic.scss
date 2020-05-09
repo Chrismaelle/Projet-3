@@ -1,3 +1,8 @@
+@import "libs/mixins.scss";
+
+$primary: rgb(253, 203, 70);
+$background-color: rgb(87,156,135);
+
 body, html{
     padding: 0;
     margin: 0;
@@ -5,19 +10,12 @@ body, html{
 }
 .bloc{
     header{
+        @include header;
         h1{
-            color: rgb(253,203,70);
-        	background-color: rgb(87,156,135);
-        	text-align: center;
-        	padding-top: 2%;
-        	padding-bottom: 2%;
-        	width: 100%;
-        	font-size: 5em;
-        	margin-top: 0;
-            margin-bottom: 4%;
+            margin: 0;
             a{
                 text-decoration: none;
-                color: rgb(253,203,70);
+                color: $primary;
             }
         }
     }
@@ -33,18 +31,12 @@ body, html{
 .conteneur{
     background-color: rgb(255,245,254);
 	width: 80%;
-	margin-left: 10%;
-    margin-bottom: 10%;
+	margin: 0 0 10% 10%;
     -webkit-box-shadow: 1px 1px 12px #aaa;
     h2{
         text-align: center;
     	font-family: croissant one, Playfair display, sans-serif;
-    	background: #c67412;
-    	background: linear-gradient(315deg,#c67412 0%, #a56799 60%, #6e4ccc 80%);
-    	background: -webkit-linear-gradient(315deg,#c67412 0%, #a56799 60%, #6e4ccc 80%);
-    	background: -moz-linear-gradient(315deg,#c67412 0%, #a56799 60%, #6e4ccc 80%);
-    	-webkit-background-clip: text;
-    	color: transparent;
+    	@include linearGradient-chic;
     	margin-bottom: 10%;
     	padding-top: 10%;
     	font-size: 4em;
@@ -184,15 +176,12 @@ body, html{
 	left: 0;
 	right: 0;
     div{
-        background-color: rgb(87,156,135);
-    	padding-top: 1%;
-    	padding-bottom: 1%;
-    	padding-left: 1.5%;
-    	padding-right: 1.5%;
+        background-color: $background-color;
+    	padding: 1% 1.5% 1% 1.5%;
     	display: flex;
         justify-content: space-between;
         a{
-            color: rgb(253,203,70);
+            color: $primary;
         	font-size: 1.5em;
             text-decoration: none;
             &:hover{
