@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .bloc header {
+    width: 100%;
+  }
+  .bloc header h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.7rem;
+    margin: 0;
+  }
+
+  .corps div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .corps div .menu {
+    width: 65%;
+    min-width: 250px;
+    margin: 5% 0 0 0;
+    font-size: 1.1rem;
+  }
+  .corps div .gout {
+    font-size: 1.2rem;
+  }
+
+  .bloc aside h2 {
+    font-size: 1.3rem;
+    width: 60%;
+    min-width: 200px;
+    margin-top: 5%;
+  }
+
+  .footer div a {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=r600.css.map */

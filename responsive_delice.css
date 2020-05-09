@@ -1,0 +1,72 @@
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .bloc header {
+    width: 100%;
+    height: auto;
+  }
+  .bloc header h1 {
+    font-size: 2.7rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bloc aside h2 {
+    font-size: 2em;
+  }
+
+  .conteneur {
+    padding-bottom: 15%;
+  }
+  .conteneur h2 {
+    font-size: 2.3rem;
+    margin-bottom: 20%;
+  }
+
+  .titre {
+    flex-direction: column;
+  }
+  .titre .borduregauche, .titre .borduredroite {
+    width: 50%;
+  }
+  .titre div h3 {
+    font-size: 1.7em;
+  }
+
+  .liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .liste li {
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  .liste li div p {
+    font-size: 1.2em;
+  }
+
+  .conteneur {
+    margin-bottom: 20%;
+  }
+  .conteneur .bot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteneur .bot .bas-menu {
+    padding: 0;
+  }
+
+  .footer div a {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=r600_4.css.map */
